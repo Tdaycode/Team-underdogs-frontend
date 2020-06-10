@@ -2,9 +2,9 @@
 
 ### CoinBase Exchange App
 
-Welcome to develope branch
+Welcome to master branch
 
-This is the DEFAULT branch for this repo and will be merge to master when the app is done with development
+This branch is for final deployment
 
 There is a set of rules to follow while working:
 Please remember this categories of commit: 
