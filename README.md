@@ -7,7 +7,8 @@ Welcome to master branch
 This branch is for final deployment
 
 There is a set of rules to follow while working:
-Please remember this categories of commit: 
+Please remember this categories of commit:
+
 ```
 feature => use feat
 chore => use ch
@@ -15,13 +16,13 @@ bug => use bg
 ```
 
 **For a feature:**
-  `git commit -m "feat: implement user sign up`
+`git commit -m "feat: implement user sign up`
 
-**For a bug:** 
-  `git commit -m "bg: fix redirect"`
+**For a bug:**
+`git commit -m "bg: fix redirect"`
 
-**For a chore:** 
-  `git commit -m "ch: update docs to include api endpoints`
+**For a chore:**
+`git commit -m "ch: update docs to include api endpoints`
 
 **Note:** For every feature, bug or chore, you must create a new branch.
 
@@ -98,15 +99,15 @@ PR === Pull request
 
 When making a PR, your PR is expected to have the following:
 
-  1. What is the task completed ?
-  2. What the PR actually does ?
-  3. How can this PR be manually tested ?
-  4. Any background contexts? (maybe something a tester might not notice and be useful for testing)
-  5. Screenshots (of your implementation - a web page, a mobile app screen or an API payload)
-  6. The Pull Request Template: PR Title: Task completed (descibe the task)
-  7. Testing Describe how to test the changes you’ve made. For example, if you added a logout button to the timeline page:
-  8. Visit localhost:8000/timeline and click on the logout button.
-  
+1. What is the task completed ?
+2. What the PR actually does ?
+3. How can this PR be manually tested ?
+4. Any background contexts? (maybe something a tester might not notice and be useful for testing)
+5. Screenshots (of your implementation - a web page, a mobile app screen or an API payload)
+6. The Pull Request Template: PR Title: Task completed (descibe the task)
+7. Testing Describe how to test the changes you’ve made. For example, if you added a logout button to the timeline page:
+8. Visit localhost:8000/timeline and click on the logout button.
+
 **Additional Information**
 
 **ScreenShots**
