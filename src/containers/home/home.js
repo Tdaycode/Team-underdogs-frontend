@@ -7,6 +7,7 @@ import Footer from '../../components/footer/footer'
 import Blog from './../../pages/blog/blog'
 import Contact from './../../pages/contact/contact'
 import NotFound from '../../components/not-found/not-found'
+import Ethereum from '../../pages/blog/ether/ethereum'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Header />
       <Switch>
         <Route path='/about' component={About} />
+        <Route path="/blog/ethereum" component={Ethereum} />
         <Route path='/blog' component={Blog} />
         <Route path='/contact' component={Contact} />
         <Route path='/' exact component={Landing} />
