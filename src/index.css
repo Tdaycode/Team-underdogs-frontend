@@ -106,6 +106,7 @@ ul {
   list-style: none;
 }
 
-a {
+a,
+a:hover {
   text-decoration: none;
 }
