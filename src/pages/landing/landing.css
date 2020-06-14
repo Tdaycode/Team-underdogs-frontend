@@ -1,36 +1,38 @@
 /* Hero Styling */
-.hero {
+.landing .hero {
   background: url('../../assets/images/common/hero-bg.svg');
   width: 100%;
   height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  padding: 0;
+  padding-bottom: 13rem;
 }
 
-.hero-text {
+.landing .hero-text {
   padding-top: 3rem;
   color: #fff;
 }
 
-.hero-text .heading {
+.landing .hero-text .heading {
   font-weight: normal;
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   line-height: 36px;
 }
 
-.hero-text .heading span {
+.landing .hero-text .heading span {
   font-weight: bold;
 }
 
-.hero-text .text {
+.landing .hero-text .text {
   font-size: 0.8rem;
   line-height: 180%;
   margin-bottom: 2rem;
 }
 
-.hero-img {
+.landing .hero-img {
   display: none;
 }
 
@@ -577,7 +579,18 @@
 }
 
 @media (min-width: 768px) {
-  .hero-img {
+  .landing .hero {
+    margin-bottom: 4rem;
+    background: url('../../assets/images/common/hero-bg.svg');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 13rem;
+  }
+
+  .landing .hero-img {
     display: block;
   }
 
@@ -663,20 +676,20 @@
 }
 
 @media (min-width: 1024px) {
-  .hero {
+  .landing .hero {
     height: 750px;
   }
 
-  .hero-text {
+  .landing .hero-text {
     padding-top: 6rem;
   }
 
-  .hero-text .heading {
+  .landing .hero-text .heading {
     font-size: 2rem;
     line-height: 60px;
   }
 
-  .hero-text .text {
+  .landing .hero-text .text {
     font-size: 1rem;
   }
 
