@@ -1,0 +1,713 @@
+/* Hero Styling */
+.landing .hero {
+  background: url('../../assets/images/common/hero-bg.svg');
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0;
+  padding-bottom: 13rem;
+}
+
+.landing .hero-text {
+  padding-top: 3rem;
+  color: #fff;
+}
+
+.landing .hero-text .heading {
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 36px;
+}
+
+.landing .hero-text .heading span {
+  font-weight: bold;
+}
+
+.landing .hero-text .text {
+  font-size: 0.8rem;
+  line-height: 180%;
+  margin-bottom: 2rem;
+}
+
+.landing .hero-img {
+  display: none;
+}
+
+.secondary-btn {
+  border-radius: 100px;
+  padding: 0.8rem 2rem;
+  border: none;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  outline: none;
+  font-weight: bold;
+  color: #281ac8;
+  background: #fff;
+  color: pointer;
+  border: 1px solid transparent;
+  letter-spacing: 0.02rem;
+}
+
+.secondary-btn:hover {
+  background: transparent;
+  border-color: #281ac8;
+  color: #fd749b;
+  font-weight: normal;
+}
+
+/* About Styling */
+
+.landing-about {
+  margin-top: -5rem;
+}
+
+.about-img {
+  margin-bottom: 2rem;
+}
+
+.about-text {
+  color: #333;
+}
+
+.about-text .heading {
+  color: #fd749b;
+  font-size: 1.4rem;
+  position: relative;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.about-text .heading::after {
+  content: '';
+  width: 32px;
+  height: 4px;
+  background: #fd749b;
+  position: absolute;
+  bottom: -0.5rem;
+  display: block;
+  border-radius: 50px;
+}
+
+.about-text .text {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  line-height: 180%;
+}
+
+/* Trade Styling */
+
+.trade {
+  background: url('../../assets/images/landing/trade-bg.svg');
+  width: 100%;
+  height: auto;
+  background-size: 1000%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 3rem 0;
+  padding: 2rem 0;
+  display: grid;
+  place-items: center;
+}
+
+.trade-container {
+  background: #fff;
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 1rem 1rem 1.5rem;
+}
+
+.trade-item {
+  margin: 0.5rem 0 1rem;
+}
+
+.trade-head {
+  color: #e790a9;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.trade .bitcoin,
+.trade .eth {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.trade-title {
+  display: flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.trade-icon {
+  width: 15px;
+  margin-right: 0.5rem;
+}
+
+.trade-title span {
+  font-size: 0.8rem;
+}
+
+.trade-desc {
+  margin-left: auto;
+  margin-top: 1rem;
+}
+
+.trade .price {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.trade .price span {
+  font-weight: bold;
+}
+
+.trade-badge {
+  background: linear-gradient(179.48deg, #fd749b -13.56%, #281ac8 158.3%);
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  color: #fff;
+  font-size: 0.8rem;
+  margin: 0.5rem auto;
+}
+
+.exchange {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 1rem;
+}
+
+.exchange span {
+  font-weight: bold;
+  margin-right: 0.3rem;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.3rem;
+}
+
+.landing-blog {
+  margin: 5rem 0;
+}
+
+.blog-img {
+  margin-top: 3rem;
+}
+
+/* Trade Box Styling */
+.trade-box {
+  background: url('../../assets/images/landing/trade-box-bg.svg');
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.trade-box-container {
+  background: #ffffff;
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  position: absolute;
+  width: 90%;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.trade-box-container .heading {
+  color: #fd749b;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.trade-box-container .heading::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 35px;
+  height: 4px;
+  background: #fd749b;
+  left: 50%;
+  bottom: -0.7rem;
+  border-radius: 40px;
+  transform: translateX(-50%);
+}
+
+.trade-box-container .content-item {
+  margin: 1rem auto;
+  background: #ffffff;
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 200px;
+  padding: 2rem;
+  border: 1px solid #fd749b;
+}
+
+.trade-box-container .content-item img {
+  width: 50px;
+  margin-bottom: 2rem;
+}
+
+.trade-box-container .content-item p {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.blog-carousel {
+  margin: 120px 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.blog-carousel-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.blog-carousel-header .head {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 2.4rem;
+  color: #fd749b;
+  position: relative;
+}
+
+.blog-carousel-header .head::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 35px;
+  height: 4px;
+  background: #fd749b;
+  left: 50%;
+  bottom: -0.6rem;
+  border-radius: 40px;
+  transform: translateX(-50%);
+}
+
+.blog-carousel-header .text {
+  font-size: 0.8rem;
+  margin: 1.5rem 0;
+}
+
+.blog-carousel .slick-slider {
+  background: transparent;
+  overflow: hidden;
+}
+
+.blog-carousel .item {
+  background: #ffffff;
+  border: 1px solid #888888;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 1rem;
+  height: 300px;
+  margin-top: 25px;
+  outline: none;
+  overflow: hidden;
+}
+
+.blog-carousel .item.active {
+  background: #ffffff;
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  border: 1px solid #fd749b;
+  height: 350px;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.blog-carousel .date {
+  font-size: 0.6rem;
+}
+
+.blog-carousel .heading {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #888;
+  margin: 1rem 0;
+}
+
+.blog-carousel .description {
+  font-size: 0.7rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.btn-alt {
+  background: #888;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  color: #fff;
+  padding: 0.4rem 1rem;
+}
+
+.blog-carousel .item.active .heading {
+  color: #333;
+}
+
+.blog-carousel .item.active .description {
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.blog-carousel .item.active .btn-alt {
+  padding: 0.4rem 1rem;
+  font-size: 0.7rem;
+  background: linear-gradient(179.37deg, #fd749b -13.56%, #281ac8 158.3%);
+  border-radius: 100px;
+  border: none;
+  color: #fff;
+  font-size: 0.6rem;
+  transition: all 0.3s ease;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 0.03rem;
+}
+
+.blog-carousel .item.active .btn-alt:hover {
+  transform: translateY(2px);
+}
+
+.testimony {
+  background: url('../../assets/images/landing/testimony-bg.svg');
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  padding: 5rem 0 4rem;
+  margin-top: -5rem;
+  text-align: center;
+}
+
+.testimony .head {
+  font-size: 1.3rem;
+  color: #fff;
+  margin: 10rem 1rem 3rem;
+  position: relative;
+  font-weight: bold;
+}
+
+.testimony .head::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 35px;
+  height: 4px;
+  background: #fd749b;
+  left: 50%;
+  bottom: -1rem;
+  border-radius: 40px;
+  transform: translateX(-50%);
+}
+
+.testimony .text {
+  font-size: 0.8rem;
+  color: #fff;
+  margin: 2rem 0;
+  line-height: 32px;
+}
+
+.testimonies {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.testimonies .item-sm,
+.testimonies .item-xs,
+.testimonies .item-md {
+  border-radius: 50%;
+  background: #d8d8d8;
+  cursor: pointer;
+}
+
+.item-xs {
+  width: 30px;
+  height: 30px;
+}
+.item-sm {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+.item-md {
+  width: 80px;
+  height: 80px;
+}
+
+/* App Section Styling */
+
+.landing-app {
+  text-align: center;
+}
+
+.landing-app .head {
+  font-size: 1.4rem;
+  color: #fd749b;
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.landing-app .head::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 35px;
+  height: 4px;
+  background: #fd749b;
+  left: 50%;
+  bottom: -1rem;
+  border-radius: 40px;
+  transform: translateX(-50%);
+}
+
+.landing-app .text {
+  font-size: 0.8rem;
+  margin: 0 1rem;
+  line-height: 30px;
+}
+
+.landing-app .icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.phones-container {
+  background: url('../../assets/images/landing/phones-bg.svg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.phoneMask {
+  position: absolute;
+  bottom: 6rem;
+  left: 0.5rem;
+  opacity: 0.6;
+  width: 50px;
+}
+
+.phones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.phones img {
+  width: 200px;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.newsletter {
+  margin: 5rem 0;
+}
+
+.newsletter .form-control {
+  border-radius: 100px;
+  margin: 1rem auto;
+  border-color: #fd749b;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 425px) {
+  .trade {
+    padding: 7rem 0 2rem;
+  }
+
+  .blog-carousel .date,
+  .blog-carousel .description {
+    font-size: 0.8rem;
+  }
+
+  .blog-carousel .heading {
+    font-size: 1.2rem;
+  }
+
+  .btn-alt {
+    padding: 0.5rem 1rem;
+  }
+
+  .blog-carousel .item.active .description {
+    font-size: 1rem;
+    margin: 2rem auto;
+  }
+
+  .blog-carousel .item.active .btn-alt {
+    padding: 0.6rem 1.4rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .landing .hero {
+    margin-bottom: 4rem;
+    background: url('../../assets/images/common/hero-bg.svg');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 13rem;
+  }
+
+  .landing .hero-img {
+    display: block;
+  }
+
+  .btn-login {
+    padding: 0.8rem 2.3rem !important;
+  }
+
+  .landing-about {
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+
+  .about-text .heading {
+    font-size: 1.8rem;
+  }
+
+  .trade {
+    height: 500px;
+    background-size: 900px;
+    background-position: center top;
+    margin: 0;
+    padding: 0;
+  }
+
+  .blog-carousel-header .head {
+    font-size: 2.3rem;
+  }
+
+  .blog-carousel-header .text {
+    font-size: 1rem;
+  }
+
+  .blog-carousel .item {
+    height: 350px;
+  }
+
+  .blog-carousel .item.active {
+    height: 400px;
+  }
+
+  .blog-carousel .item.active .description {
+    font-size: 0.8rem;
+    order: 2;
+  }
+
+  .testimony {
+    margin: 0 0 5rem;
+  }
+
+  .landing-app .head {
+    font-size: 1.7rem;
+  }
+
+  .landing-app .text {
+    font-size: 0.9rem;
+  }
+
+  .phones-container {
+    height: 400px;
+    margin-bottom: 5rem;
+  }
+
+  .phones {
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15rem;
+  }
+
+  .phoneMask {
+    left: 2rem;
+  }
+
+  .phones img {
+    margin: 3rem 1rem;
+  }
+
+  .newsletter {
+    margin: 20rem 0 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .landing .hero {
+    height: 750px;
+  }
+
+  .landing .hero-text {
+    padding-top: 6rem;
+  }
+
+  .landing .hero-text .heading {
+    font-size: 2rem;
+    line-height: 60px;
+  }
+
+  .landing .hero-text .text {
+    font-size: 1rem;
+  }
+
+  .trade {
+    background: url('../../assets/images/landing/trade-bg.svg');
+    width: 100%;
+    height: 900px;
+    margin: -5rem 0;
+    padding: 0;
+    background-size: cover;
+    position: relative;
+  }
+
+  .trade-container {
+    position: absolute;
+    width: 90%;
+    top: 11rem;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}
