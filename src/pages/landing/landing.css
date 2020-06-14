@@ -277,3 +277,273 @@
   font-weight: bold;
   font-size: 0.9rem;
 }
+
+.blog-carousel {
+  margin: 120px 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.blog-carousel-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.blog-carousel-header .head {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 2.4rem;
+  color: #fd749b;
+  position: relative;
+}
+
+.blog-carousel-header .head::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 35px;
+  height: 4px;
+  background: #fd749b;
+  left: 50%;
+  bottom: -0.6rem;
+  border-radius: 40px;
+  transform: translateX(-50%);
+}
+
+.blog-carousel-header .text {
+  font-size: 0.8rem;
+  margin: 1.5rem 0;
+}
+
+.blog-carousel .slick-slider {
+  background: transparent;
+  overflow: hidden;
+}
+
+.blog-carousel .item {
+  background: #ffffff;
+  border: 1px solid #888888;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 1rem;
+  height: 300px;
+  margin-top: 25px;
+  outline: none;
+  overflow: hidden;
+}
+
+.blog-carousel .item.active {
+  background: #ffffff;
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  border: 1px solid #fd749b;
+  height: 350px;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.blog-carousel .date {
+  font-size: 0.6rem;
+}
+
+.blog-carousel .heading {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #888;
+  margin: 1rem 0;
+}
+
+.blog-carousel .description {
+  font-size: 0.7rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.btn-alt {
+  background: #888;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  color: #fff;
+  padding: 0.4rem 1rem;
+}
+
+.blog-carousel .item.active .heading {
+  color: #333;
+}
+
+.blog-carousel .item.active .description {
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.blog-carousel .item.active .btn-alt {
+  padding: 0.4rem 1rem;
+  font-size: 0.7rem;
+  background: linear-gradient(179.37deg, #fd749b -13.56%, #281ac8 158.3%);
+  border-radius: 100px;
+  border: none;
+  color: #fff;
+  font-size: 0.6rem;
+  transition: all 0.3s ease;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 0.03rem;
+}
+
+.blog-carousel .item.active .btn-alt:hover {
+  transform: translateY(2px);
+}
+
+.testimony {
+  background: url('../../assets/images/landing/testimony-bg.svg');
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  padding: 5rem 0 4rem;
+  margin-top: -5rem;
+  text-align: center;
+}
+
+.testimony .head {
+  font-size: 1.3rem;
+  color: #fff;
+  margin: 10rem 1rem 3rem;
+  position: relative;
+  font-weight: bold;
+}
+
+.testimony .head::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 35px;
+  height: 4px;
+  background: #fd749b;
+  left: 50%;
+  bottom: -1rem;
+  border-radius: 40px;
+  transform: translateX(-50%);
+}
+
+.testimony .text {
+  font-size: 0.8rem;
+  color: #fff;
+  margin: 2rem 0;
+  line-height: 32px;
+}
+
+.testimonies {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.testimonies .item-sm,
+.testimonies .item-xs,
+.testimonies .item-md {
+  border-radius: 50%;
+  background: #d8d8d8;
+  cursor: pointer;
+}
+
+.item-xs {
+  width: 30px;
+  height: 30px;
+}
+.item-sm {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+.item-md {
+  width: 80px;
+  height: 80px;
+}
+
+/* App Section Styling */
+
+.landing-app {
+  text-align: center;
+}
+
+.landing-app .head {
+  font-size: 1.4rem;
+  color: #fd749b;
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.landing-app .head::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 35px;
+  height: 4px;
+  background: #fd749b;
+  left: 50%;
+  bottom: -1rem;
+  border-radius: 40px;
+  transform: translateX(-50%);
+}
+
+.landing-app .text {
+  font-size: 0.8rem;
+  margin: 0 1rem;
+  line-height: 30px;
+}
+
+.landing-app .icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.phones-container {
+  background: url('../../assets/images/landing/phones-bg.svg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.phoneMask {
+  position: absolute;
+  bottom: 6rem;
+  left: 0.5rem;
+  opacity: 0.6;
+  width: 50px;
+}
+
+.phones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.phones img {
+  width: 200px;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.newsletter {
+  margin: 5rem 0;
+}
+
+.newsletter .form-control {
+  border-radius: 100px;
+  margin: 1rem auto;
+  border-color: #fd749b;
+  font-size: 0.8rem;
+}
