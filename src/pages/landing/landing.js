@@ -26,14 +26,13 @@ class Landing extends React.Component {
   }
   render() {
     const settings = {
-      dots: false,
+      dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
       centerPadding: '1.5rem',
       centerMode: true,
-      className: 'center',
       focusOnSelect: true,
       afterChange: current => this.setState({ currentSlide: current }),
       responsive: [
@@ -42,7 +41,6 @@ class Landing extends React.Component {
           settings: {
             arrows: false,
             centerMode: true,
-            centerPadding: '40px',
             slidesToShow: 3,
           },
         },

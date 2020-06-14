@@ -68,23 +68,23 @@ function Blog() {
       <section className='merry-section'>
         <div className='container'>
           <div className='row'>
-            <div classNames='card ml-3 mr-3 mt-5'>
-              <img src={Merry} classNames='card-img-top' alt='' />
-              <div classNames='card-body'>
-                <h5 classNames='card-title'>
+            <div className='card ml-3 mr-3 mt-5'>
+              <img src={Merry} className='card-img-top' alt='' />
+              <div className='card-body'>
+                <h5 className='card-title'>
                   HOW TO SELL YOUR ITUNES GIFTCARD WITH US.
                 </h5>
-                <p classNames='card-text text-center'>
+                <p className='card-text text-center'>
                   19 JUNE, 2019 | BUSINESS
                 </p>
-                <p classNames='card-text text-center'>
+                <p className='card-text text-center'>
                   Lorem ipsum dolor sit amet, magna habemus ius ad, qui minimum
                   voluptaria in. Ad mei modus quodsi
                 </p>
-                <p classNames='card-text text-center'>
+                <p className='card-text text-center'>
                   complectitur, postea verterem persecuti cu est, sea epicuri.
                 </p>
-                <Link to='/blog/ethereum' classNames='btn mt-3 mb-3'>
+                <Link to='/blog/ethereum' className='btn mt-3 mb-3'>
                   DISCOVER
                 </Link>
               </div>

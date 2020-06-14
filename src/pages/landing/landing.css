@@ -1,5 +1,4 @@
 /* Hero Styling */
-
 .hero {
   background: url('../../assets/images/common/hero-bg.svg');
   width: 100%;
@@ -546,4 +545,156 @@
   margin: 1rem auto;
   border-color: #fd749b;
   font-size: 0.8rem;
+}
+
+@media (min-width: 425px) {
+  .trade {
+    padding: 7rem 0 2rem;
+  }
+
+  .blog-carousel .date,
+  .blog-carousel .description {
+    font-size: 0.8rem;
+  }
+
+  .blog-carousel .heading {
+    font-size: 1.2rem;
+  }
+
+  .btn-alt {
+    padding: 0.5rem 1rem;
+  }
+
+  .blog-carousel .item.active .description {
+    font-size: 1rem;
+    margin: 2rem auto;
+  }
+
+  .blog-carousel .item.active .btn-alt {
+    padding: 0.6rem 1.4rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-img {
+    display: block;
+  }
+
+  .btn-login {
+    padding: 0.8rem 2.3rem !important;
+  }
+
+  .landing-about {
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+
+  .about-text .heading {
+    font-size: 1.8rem;
+  }
+
+  .trade {
+    height: 500px;
+    background-size: 900px;
+    background-position: center top;
+    margin: 0;
+    padding: 0;
+  }
+
+  .blog-carousel-header .head {
+    font-size: 2.3rem;
+  }
+
+  .blog-carousel-header .text {
+    font-size: 1rem;
+  }
+
+  .blog-carousel .item {
+    height: 350px;
+  }
+
+  .blog-carousel .item.active {
+    height: 400px;
+  }
+
+  .blog-carousel .item.active .description {
+    font-size: 0.8rem;
+    order: 2;
+  }
+
+  .testimony {
+    margin: 0 0 5rem;
+  }
+
+  .landing-app .head {
+    font-size: 1.7rem;
+  }
+
+  .landing-app .text {
+    font-size: 0.9rem;
+  }
+
+  .phones-container {
+    height: 400px;
+    margin-bottom: 5rem;
+  }
+
+  .phones {
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15rem;
+  }
+
+  .phoneMask {
+    left: 2rem;
+  }
+
+  .phones img {
+    margin: 3rem 1rem;
+  }
+
+  .newsletter {
+    margin: 20rem 0 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    height: 750px;
+  }
+
+  .hero-text {
+    padding-top: 6rem;
+  }
+
+  .hero-text .heading {
+    font-size: 2rem;
+    line-height: 60px;
+  }
+
+  .hero-text .text {
+    font-size: 1rem;
+  }
+
+  .trade {
+    background: url('../../assets/images/landing/trade-bg.svg');
+    width: 100%;
+    height: 900px;
+    margin: -5rem 0;
+    padding: 0;
+    background-size: cover;
+    position: relative;
+  }
+
+  .trade-container {
+    position: absolute;
+    width: 90%;
+    top: 11rem;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
 }
