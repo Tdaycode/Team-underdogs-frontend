@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './landing.css';
 
 function Landing() {
   return (
     <div>
-      <h3>Landing Page</h3>
+      <h3>About Page</h3>
     </div>
-  )
+  );
 }
 
-export default Landing
+export default Landing;
